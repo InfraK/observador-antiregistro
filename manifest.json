@@ -3,7 +3,7 @@
   "version": "0.1",
   "description": "Remueve el molesto fade y cartel que te pide registro en las notas!",
   "permissions": ["tabs", "<all_urls>"],
-  "icons": { "180": "icon.png" },
+  "icons": { "128": "icon.png" },
   "content_scripts": [
     {
       "run_at": "document_end",
