@@ -1,0 +1,14 @@
+{
+  "name": "Observador antiRegistro",
+  "version": "0.1",
+  "description": "Remueve el molesto fade y cartel que te pide registro en las notas!",
+  "permissions": ["tabs", "<all_urls>"],
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": ["*://www.elobservador.com.uy/*"],
+      "js": ["observador.js"]
+    }
+  ],
+  "manifest_version": 2
+}
